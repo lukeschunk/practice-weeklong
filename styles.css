@@ -9,3 +9,7 @@
   justify-content: space-between;
   cursor: pointer;
 }
+
+.selected {
+  border-bottom: 2px solid red;
+}

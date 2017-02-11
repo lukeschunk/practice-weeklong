@@ -15,4 +15,5 @@ angular.module('project').controller('mainController', function($scope) {
       }
     })
   }
+
 })

@@ -24,9 +24,9 @@
 	</h2>
 
 	<div class="bottom-nav">
-		<div ng-click="togglePage('view')">View Friends</div>
-		<div ng-click="togglePage('find')">Find Friends</div>
-		<div ng-click="togglePage('update')">Update Profile</div>
+		<div ng-class="{selected: view}" ng-click="togglePage('view')">View Friends</div>
+		<div ng-class="{selected: find}" ng-click="togglePage('find')">Find Friends</div>
+		<div ng-class="{selected: update}" ng-click="togglePage('update')">Update Profile</div>
 	</div>
 
 	<script src="/app/app.js"></script>
