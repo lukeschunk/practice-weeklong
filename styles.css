@@ -13,3 +13,12 @@
 .selected {
   border-bottom: 2px solid red;
 }
+
+.button {
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+}

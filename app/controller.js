@@ -1,8 +1,9 @@
-angular.module('project').controller('mainController', function($scope) {
+angular.module('project').controller('mainController', function($scope, mainService) {
 
-  var pages = ['view', 'find', 'update'];
+  var pages = ['default', 'view', 'find', 'update'];
 
-  $scope.view = true;
+  $scope.default = true;
+  $scope.view = false;
   $scope.find = false;
   $scope.update = false;
 
@@ -15,5 +16,7 @@ angular.module('project').controller('mainController', function($scope) {
       }
     })
   }
+
+  $scope.saveUser = mainService.saveUser;
 
 })
